@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ABC Colleges - Library Users</title>
+    <link rel="stylesheet" href="students.css">
+</head>
+
+<body>
+    <h1>ABC Colleges</h1>
+    <h2>Library Users</h2>
+    <div class="container-wrapper">
+        <div class="container" id="students-container">
+
+        </div>
+    </div>
+
+    <script>
+        fetch('crystel_lachica.xml')
+            .then(response => response.text())
+            .then(data => {
+                const parser = new DOMParser();
+                const xmlDoc = parser.parseFromString(data, 'text/xml');
+                const students = xmlDoc.getElementsByTagName('student');
+                const container = document.getElementById('students-container');
+
+                for (let i = 0; i < students.length; i++) {
+                    const student = students[i];
+                    const name = student.getElementsByTagName('name')[0].textContent;
+                    const course = student.getElementsByTagName('course')[0].textContent;
+                    const yearLevelSection = student.getElementsByTagName('yearLevelSection')[0].textContent;
+                    const adviser = student.getElementsByTagName('adviser')[0].textContent;
+                    const schoolYear = student.getElementsByTagName('schoolYear')[0].textContent;
+                    const image = student.getElementsByTagName('image')[0]?.textContent.trim() || 'default-image.jpg';
+
+                    const card = document.createElement('div');
+                    card.className = 'card';
+
+                    card.innerHTML = `
+                        <img src="${image}" alt="Profile Picture">
+                        <p><strong>Name:</strong> ${name}</p>
+                        <p><strong>Course:</strong> ${course}</p>
+                        <p><strong>Year Level / Section:</strong> ${yearLevelSection}</p>
+                        <p><strong>Adviser:</strong> ${adviser}</p>
+                        <p><strong>School Year:</strong> ${schoolYear}</p>
+                    `;
+
+                    container.appendChild(card);
+                }
+            })
+            .catch(error => console.error('Error loading XML:', error));
+    </script>
+</body>
+
+</html>

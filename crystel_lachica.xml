@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<students>
+    <student>
+        <image>
+            https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBTbtVWoJ3rQYQCCT39-p3lhJ7rFVZXrcrZKGrbwLzaBHlV0IZru1TaonWYLG29Dv6JJA&amp;usqp=CAU</image>
+        <name>Maria Santos</name>
+        <course>BSCS</course>
+        <yearLevelSection>2A</yearLevelSection>
+        <adviser>Mrs. Anna Reyes</adviser>
+        <schoolYear>2025-2026</schoolYear>
+    </student>
+
+    <student>
+        <image>
+            https://img.freepik.com/premium-photo/passport-photo-portrait-young-man-white-background_1028938-330516.jpg?w=360</image>
+        <name>Daniel Lopez</name>
+        <course>BSECE</course>
+        <yearLevelSection>3C</yearLevelSection>
+        <adviser>Mr. Roberto Garcia</adviser>
+        <schoolYear>2025-2026</schoolYear>
+    </student>
+    <student>
+        <image>
+            https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEvGHg_7hqNtddUoKhDI-r1NrqU55pLc1Ipx2ZE4dFpZdCF7M0dBiHfeQDzFaIrC-jlck&amp;usqp=CAU</image>
+        <name>Angela Cruz</name>
+        <course>BSIT</course>
+        <yearLevelSection>1B</yearLevelSection>
+        <adviser>Ms. Carla Dela Rosa</adviser>
+        <schoolYear>2025-2026</schoolYear>
+    </student>
+    <student>
+        <image>
+            https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJVh793XmZ78-beWnOjxoxA2cwTO-lXFkPyy3wfASZEsUwNl6xj8A_zzhTlN_7syF_ggA&amp;usqp=CAU</image>
+        <name>James Rivera</name>
+        <course>BSME</course>
+        <yearLevelSection>4D</yearLevelSection>
+        <adviser>Engr. Antonio Mendoza</adviser>
+        <schoolYear>2025-2026</schoolYear>
+
+    </student>
+    <student>
+        <image>
+            https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSiIhb-Gj-Bpa1x-kzm8cvZWPkm36vMfQyPXVeX5aPJo_zyqfGPNN15jdMfo40W1CReDY&amp;usqp=CAU</image>
+        <name>Sophia Fernandez</name>
+        <course>BSA</course>
+        <yearLevelSection>2F</yearLevelSection>
+        <adviser>Mr. Henry Torres</adviser>
+        <schoolYear>2025-2026</schoolYear>
+
+    </student>
+    <student>
+        <image>
+            https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8wsonQ3L5seJDUdD08lpEnbLd6Z7p_8_kPVsj4zdR-XEXyufQxptMY_alaJFxVXLU4fo&amp;usqp=CAU</image>
+        <name>Mark Gonzales</name>
+        <course>BSIT</course>
+        <yearLevelSection>3G</yearLevelSection>
+        <adviser>Mr. Joel Bautista</adviser>
+        <schoolYear>2025-2026</schoolYear>
+
+    </student>
+    <student>
+        <image>
+            https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSn3IHAMw_YXik8NqDOdFgzGETjkJXb9RuuQy84jnDPKGscZBD1cRUew6QcEOB1NBs-njI&amp;usqp=CAU</image>
+        <name>Emily Ramos</name>
+        <course>BSHM</course>
+        <yearLevelSection>1E</yearLevelSection>
+        <adviser>Mrs. Lourdes Santiago</adviser>
+        <schoolYear>2025-2026</schoolYear>
+
+    </student>
+    <student>
+        <image>
+            https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQq8FcAFE08FKZIhuOw5u7kGcM0aQYgUKFAmkXe9jHbxvmk1uLTAgAnf1RhzK3wWqzynaY&amp;usqp=CAU</image>
+        <name>Joshua Tan</name>
+        <course>BSEE</course>
+        <yearLevelSection>4A</yearLevelSection>
+        <adviser>Engr. Miguel Dominguez</adviser>
+        <schoolYear>2025-2026</schoolYear>
+
+    </student>
+    <student>
+        <image>
+            https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCKhBsXsLF5uH9B0lhCiOC1RfTvgqbCaHEkxRMbuTUYxbCfENatvhOTelA0P4o3a2EgGU&amp;usqp=CAU</image>
+        <name>Catherine Bautista</name>
+        <course>BSBA</course>
+        <yearLevelSection>2D</yearLevelSection>
+        <adviser>Mr. Ronald Castillo</adviser>
+        <schoolYear>2025-2026</schoolYear>
+
+    </student>
+    <student>
+        <image>
+            https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJLkHIxizSmzGESpjAFPGLRfIqvBgTZkr147FgK_pkIAKhAwAFwDGfdDn077Z2Y-KXBuE&amp;usqp=CAU</image>
+        <name>Patrick Hernandez</name>
+        <course>BSCE</course>
+        <yearLevelSection>3B</yearLevelSection>
+        <adviser>Engr. Victor Cruz</adviser>
+        <schoolYear>2025-2026</schoolYear>
+    </student>
+</students>
