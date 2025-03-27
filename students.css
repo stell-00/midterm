@@ -11,15 +11,15 @@ body
 h1 
 {
     font-size: 7.5em;
-    margin: 20px 0;
     font-weight: 500;
+    margin: 10px 0; 
 }
 
 h2 
 {
     font-size: 4.5em;
-    margin: 10px 0 10px;
     font-weight: normal;
+    margin: 5px 0;
 }
 
 .container-wrapper 
@@ -27,14 +27,13 @@ h2
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: calc(100vh - 150px);
-    margin-top: 10px;
+    height: 77vh;
 }
 
 .container 
 {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 20px;
     justify-content: center;
 }
